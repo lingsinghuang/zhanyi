@@ -4,7 +4,9 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html post*.html post2/post2.html",
+    "build": "parcel build index.html post*.html post2/post2.html"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +28,12 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "postcss-cli": "^8.3.1",
+    "postcss-fontpath": "^1.0.0",
+    "posthtml-expressions": "^1.7.1",
+    "posthtml-include": "^1.7.1",
+    "posthtml-load-config": "^2.0.0",
     "postcss": "^7.0.36",
     "tailwind": "^4.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.2"
