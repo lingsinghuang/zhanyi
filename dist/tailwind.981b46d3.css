@@ -861,8 +861,30 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(17, 24, 39, 0));
 }
 
+.from-blue-300 {
+  --tw-gradient-from: #93c5fd;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(147, 197, 253, 0));
+}
+
+.from-yellow-300 {
+  --tw-gradient-from: #fcd34d;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(252, 211, 77, 0));
+}
+
 .to-blue-300 {
   --tw-gradient-to: #93c5fd;
+}
+
+.to-blue-400 {
+  --tw-gradient-to: #60a5fa;
+}
+
+.to-yellow-300 {
+  --tw-gradient-to: #fcd34d;
+}
+
+.to-pink-600 {
+  --tw-gradient-to: #db2777;
 }
 
 .p-9 {
