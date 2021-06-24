@@ -50,9 +50,6 @@ li {
     list-style:none;
 }
 
-a:hover {
-    text-decoration: none;
-}
 
 .container {
     margin: 0px 0px 0px 0px;
@@ -129,6 +126,7 @@ a:hover {
 
 .toggle-post.active .body {
 	height: auto; /* 自動調整高度 */
+    margin: 10px;
 }
 
 
