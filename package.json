@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html post*.html post2/post2.html article*/article*.html article*.html podcast.html && npx tailwindcss -o tailwind.css --watch",
+    "dev": "parcel index.html post*.html post2/post2.html article*/article*.html article*.html podcast.html article1/article1.html && npx tailwindcss -o tailwind.css --watch",
     "build": "parcel build index.html post*.html post2/post2.html"
   },
   "author": "",
